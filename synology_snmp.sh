@@ -24,8 +24,8 @@ ups_group="NAS" #For filtering metrics if more than one UPS, only necessary if c
 #INFLUXDB SETTINGS
 influxdb_host="192.168.1.10" #URL/IP for influxdb
 influxdb_port="8086" #Port influxdb is running on
-influxdb_name="telegraf" #influxdb database name, default telegraf
-influxdb_user="" #influxdb user, leave blank if you do not have an influxdb user, shame on you.
+influxdb_name="synology" #influxdb database name, default telegraf
+influxdb_user="synology" #influxdb user, leave blank if you do not have an influxdb user, shame on you.
 influxdb_pass="" #influxdb password
 
 #HTTP METHOD SETTINGS
