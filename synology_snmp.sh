@@ -17,12 +17,12 @@ capture_network="true" #Get network stats, Rx and Tx
 capture_interval=20
 
 #NAS DETAILS
-nas_url="localhost" #url/IP to the NAS itself. Since it is likely running on the NAS just leave it to localhost
+nas_url="192.168.1.187" #url/IP to the NAS itself. Since it is likely running on the NAS just leave it to localhost
 nas_name=""  #Leave empty if you want to get the name from the NAS itself, otherwise provide a custom name
 ups_group="NAS" #For filtering metrics if more than one UPS, only necessary if capturing ups stats is enabled
 
 #INFLUXDB SETTINGS
-influxdb_host="127.0.0.1" #URL/IP for influxdb
+influxdb_host="192.168.1.10" #URL/IP for influxdb
 influxdb_port="8086" #Port influxdb is running on
 influxdb_name="telegraf" #influxdb database name, default telegraf
 influxdb_user="" #influxdb user, leave blank if you do not have an influxdb user, shame on you.
